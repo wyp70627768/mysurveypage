@@ -1,0 +1,84 @@
+.suvery-list-content {
+	margin: 50px;
+
+	.survey-link {
+		margin: 2%;
+	}
+
+	a {
+		text-decoration: none;
+		color:#1DBD72;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	display: flex;
+	justify-content: center;
+	height: 800px;
+	overflow: auto;
+
+	table{
+		width: 90%;
+		border-spacing:0;
+		display: table;
+
+		thead{
+			width: 100%;
+
+			th.name{
+				width: 70%;
+				text-align: left;
+				border-bottom: 1px solid gray;
+				height: 30px;
+			}
+
+			th.result{
+				width: 30%;
+				text-align: left;
+				border-bottom: 1px solid gray;
+				height: 30px;
+			}			
+		}
+
+		tbody{
+			tr{
+				height: 30px;
+				td.name {
+					width: 69%;
+				}
+				
+				td.result {
+					width: 29%;
+				}
+
+				td {
+					border-bottom: 1px dotted gray;
+					height: 30px;
+
+					a {
+						height: 30px;
+						padding-top: 0;
+						padding-bottom: 0;
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+
+	input.createSurvery-btn {
+		border-width: 0;
+		background-color: #00BF6F;
+		color: white;
+		height: 30px;
+		font-size: 24px;
+		cursor: pointer;
+		text-decoration: underline;
+		position: absolute;
+		top: 15px;
+		right: 10px;
+	}
+}
