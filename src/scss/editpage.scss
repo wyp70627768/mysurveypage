@@ -1,0 +1,257 @@
+@import './fonts';
+
+#app{
+	header {
+		input.createSurvery-btn {
+			display: none;
+		}
+	}
+	ol {
+		list-style-type: none;
+	}
+	.iconfont {
+		display: none;
+	}
+
+	.question-content {
+		box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+		margin: 50px;
+
+		.header {
+			background-color: white;
+			border-bottom: 1px solid #d3d3d3;
+			text-align: center;
+			margin: 0 10px;
+			height: 70px;
+
+			.title {
+	          text-align: left;
+	          width: 70%;
+	          outline: none;
+	          padding: 0 1rem;	          
+	          border: 1px solid transparent;
+	          font-size: 20px	;
+	          line-height: 3rem;
+	          margin: 10px auto;
+	          float: left;
+	          &:focus {
+	            border: 1px solid #00BF6F;
+	            background: #ffffe0;
+	          }
+	        }	
+
+	        .add-question-button-text {
+				height: 40px;
+				padding: 10px auto;
+				float:right;
+				background-color: #00BF6F;
+				color: white;
+				padding: 8px 24px;
+				font-size: 20px;
+				margin: 15px auto;
+				cursor: pointer;
+	        }
+		}
+
+		.question-type {			
+			border-bottom: 1px dotted gray;
+			background-color: white;	
+			padding: 8px auto;
+			margin: 10px;
+
+						
+		}
+		.toolbar {
+			height: 30px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			display: flex;	
+			justify-content: center;
+
+			.btn {
+				width: 150px;
+				border: 1px solid gray;
+				background-color: white;
+				border-radius: 10px;
+				text-align: center;
+				cursor: pointer;
+				display: inline-block;
+				padding: 3px 3px;
+				margin-left: 20px;
+
+
+				&:hover {
+					background-color: #00BF6F;
+					color: white;
+				}
+			}
+		}
+		.question-body {
+			li.question-item-group {
+				margin-bottom: 10px;
+			}
+			li {
+				&:hover {
+					background-color: #f0f0f2;
+					
+					li.answer{
+						.option {
+							.adjust-button {
+								display: block;
+							}
+						}		
+					}
+				
+				}
+
+				li.answer {					
+					width: 90%;
+
+					input {
+						float: left;
+						width: 30px;						
+					}
+
+					p {
+						text-align: left;
+					}
+
+					.select {
+						height: 30px;
+						margin: 0;
+						clear: both;
+						float: left;
+					}
+
+					.option {
+						margin-left: 30px;
+						height: 30px;
+						padding-top: 3px;
+
+						.input-fix {
+							width: 80%;
+							height: 24px;
+							float: left;
+
+							.input{
+								margin: 0;
+								font-size: 14px;
+							}
+						}
+
+						.adjust-button {
+							float: left;
+							margin-left: 5px;
+							display: none;
+
+							.span-btn {
+								width: 20px;
+								height: 100%;
+								border-radius: 50px;
+								border: 1px solid gray;
+								display: inline-block;
+								text-align: center;
+								margin-left: 10px;
+
+								&:hover {
+									background-color: gray;
+									color: white;
+									border-style: transparent;
+									cursor:  pointer;
+								}
+							}
+						}
+					}
+				}
+
+				.side {
+					width: 22px;
+					height: 25px;
+					padding-top: 5px;
+	    			float: left;
+	    			color: #00BF6F;
+				}
+
+				.content {
+					margin-left: 30px;
+	    			width: 100%;
+
+				    .input {
+				   	  border: 1px solid transparent;
+					  background-color: transparent;
+					  width: 100%;
+					  height: 25px;
+				      outline: none;
+				      text-align: left;
+
+
+				      &:hover {				        
+				        background-color: #ffffe0;
+				        border: 1px solid #00BF6F;
+				      }
+				    }
+					
+					.input.title{
+						width: 90%;
+						color: #00BF6F;
+						font-size: 16px;
+					}
+
+				    .textarea {
+				    	boder: 1px solid gray;
+				    	height: 10rem;
+				    	font-size: 14px;
+				    	width: 90%;
+				    	display: table-cell;
+				    	margin: 10px 0;
+				    	cursor: pointer;
+
+				    	&:hover {				        
+					        background-color: #ffffe0;
+					        border: 1px solid #00BF6F;					        
+				      	}
+				    }
+				}
+			}
+
+			.question-save {
+				margin: 10px;
+				height: 70px;
+
+				input {
+					height: 40px;
+					padding: 10px;
+					float:right;
+					background-color: gray;
+					color: white;
+					padding: 8px 24px;
+					font-size: 16px;
+					margin: 15px auto;
+					cursor: pointer;
+					width: 160px
+				}
+			}
+		}
+
+
+	}
+
+	.add-option {
+	      margin-top: 1rem;
+	      font-size: 14px;
+	      cursor: pointer;
+	      color: gray;
+	      display: inline-block;
+	      line-height: 2;
+	      text-align: center;
+	      border-radius: .4rem;
+	      visibility: hidden;
+	      &:hover {
+	        color: blue;
+	      }
+	      .iconfont {
+	        margin-right: .6rem;
+	      }
+	}
+	
+}
