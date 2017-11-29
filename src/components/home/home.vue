@@ -56,7 +56,7 @@
     }
 </script>
 
-<style scoped lang='scss'>
+ <style scoped lang='scss'>
 @import "../../scss/home"
 
 </style>
