@@ -11,12 +11,22 @@ export default {
 </script>
 
 <style>
+body{
+  margin: 0;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+#app header {
+  color: white;
+  height: 60px;
+  background-color: #00BF6F;
+  font-size: 30px;
+  padding-left: 10px;
+  text-align:left;
+  padding-top: 10px;
 }
 </style>
