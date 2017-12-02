@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+     <header>
+      <label>My Survey</label>
+    </header>
     <router-view/>
   </div>
 </template>
